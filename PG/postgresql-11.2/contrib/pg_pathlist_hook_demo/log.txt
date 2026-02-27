@@ -1,0 +1,601 @@
+[_PG_init:32]: PG pg_seqscan_hook versioin:v2.0
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[PGSetCustomRelPathlistHook:687]: baserestrictinfo_cnt=0 , query not support
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[PGSetCustomRelPathlistHook:721]: add_path for rel, relid=2, reltablespace=0
+[PGSetCustomRelPathlistHook:724]: open_share_memory
+[PGSetCustomRelPathlistHook:727]: 共享内存地址: (nil)
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[check_func_id:566]: func is not support, oid=1048, name=bpchareq
+[PGSetCustomRelPathlistHook:701]: query not support
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[check_func_id:566]: func is not support, oid=1048, name=bpchareq
+[PGSetCustomRelPathlistHook:701]: query not support
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[PGSetCustomRelPathlistHook:687]: baserestrictinfo_cnt=0 , query not support
+[PGSetCustomRelPathlistHook:668]: set custom hook
+[PGSetCustomRelPathlistHook:721]: add_path for rel, relid=6, reltablespace=0
+[PGSetCustomRelPathlistHook:724]: open_share_memory
+[PGSetCustomRelPathlistHook:727]: 共享内存地址: (nil)
+[PlanPGCustomScanPath:200]: trace
+[PlanPGCustomScanPath:200]: trace
+[CreatePGCustomScanState:222]: trace
+[walk_expr_for_fpga:423]: leaf node VV, func=date_gt, opexpr->opno=1097, opexpr->opfuncid=1089, arg0_tag=104[tuple], arg1_tag=104[tuple], (stack_count=1)
+[show_filter:73]: op_cnt=2, max_attr_index=12
+[show_filter:77]: op_type=113, op_class=0, funcid=1089, nargs=2
+	 arg0_tag=104, arg0_index=12, arg0_len=4
+	 arg1_tag=104, arg1_index=11, arg1_len=4
+[show_filter:77]: op_type=117, op_class=0, funcid=0, nargs=1
+	 arg0_tag=0, arg0_index=0, arg0_len=0
+	 arg1_tag=0, arg1_index=0, arg1_len=0
+[BeginPGCustomScan:278]: trace pg_css=0x7c49490b2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2809856, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=3788800, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=3792896, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=6914048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=6924288, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=4059136, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=3815424, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=6912000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=6864896, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=2752512, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=2719744, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2734080, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2738176, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2686976, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2656256, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2680832, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2588672, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=3885056, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=3889152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=2895872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2899968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=6928384, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=2615296, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=6897664, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=2555904, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=2562048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2566144, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=2523136, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=2549760, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 29: start_block=2553856, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 30: start_block=2490368, block_count=10240
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.1
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2500608, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=2457600, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=2482176, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=2486272, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=2424832, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=2392064, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=2410496, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=2414592, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=3811328, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=4057088, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4089856, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=3604480, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=3667968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=4014080, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2359296, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2369536, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2373632, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2326528, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=2357248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=2295808, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2260992, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=2228224, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=2232320, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=2236416, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.2
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2242560, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=2195456, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=2205696, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=2211840, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=2162688, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=4073472, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=3131392, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=2480128, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=2484224, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=3710976, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=3715072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=6901760, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2170880, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2185216, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2189312, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2129920, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2064384, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2088960, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=2031616, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1998848, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2009088, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=2013184, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=1966080, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=1982464, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4132864, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=4145152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2367488, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=2371584, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=3035136, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 29: start_block=3039232, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 30: start_block=4044800, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 31: start_block=1935360, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.3
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1939456, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1900544, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1908736, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1912832, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1867776, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1835008, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1849344, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1853440, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1802240, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1769472, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1777664, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=1781760, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2791424, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=3407872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=3411968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=4063232, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=4069376, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=4126720, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=3239936, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1738752, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1746944, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1751040, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=1703936, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=1673216, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=1677312, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.4
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1683456, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1638400, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1665024, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1669120, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1607680, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1540096, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1552384, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1556480, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1507328, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1515520, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=2230272, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2234368, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=4136960, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=4151296, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=1476608, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=1441792, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=1468416, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=1472512, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1409024, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1376256, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1394688, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1400832, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.5
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1402880, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1343488, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1359872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1363968, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1310720, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1662976, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1667072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=4036608, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1744896, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1748992, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4007936, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=4098048, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=1333248, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=1277952, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=1245184, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=1263616, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=1267712, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=1212416, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1179648, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1196032, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1200128, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1146880, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=6920192, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=3997696, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4061184, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=1329152, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2166784, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=4128768, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=1122304, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.6
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1132544, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1081344, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1105920, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1112064, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1015808, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=983040, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1001472, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1005568, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=950272, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=917504, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=931840, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=935936, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=886784, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=899072, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2355200, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=3110912, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=6916096, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2084864, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1511424, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=851968, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=821248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=825344, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=829440, block_count=16384
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.7
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=845824, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=786432, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=817152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=755712, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=720896, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=749568, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=688128, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=708608, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=894976, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=2007040, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4085760, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=3457024, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=4141056, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=655360, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=622592, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=634880, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=638976, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=589824, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=557056, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=565248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=569344, block_count=18432
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.8
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=587776, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=491520, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=514048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=518144, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=458752, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=485376, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=4024320, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1103872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1110016, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1550336, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1554432, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2187264, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=706560, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=425984, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=393216, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=409600, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=413696, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=360448, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=327680, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=331776, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=335872, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=296960, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=325632, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=264192, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4022272, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=483328, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.9
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1118208, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=231424, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=196608, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=200704, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=165888, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=131072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=135168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=139264, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=100352, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=65536, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=69632, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2183168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=1128448, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2560000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2564096, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=4102144, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=34816, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=8355840, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=8361984, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=8366080, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=8323072, block_count=12288
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.10
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=8335360, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=8290304, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=8294400, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=8257536, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=8280064, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=8286208, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=8224768, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=8192000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=8196096, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=8200192, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1671168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=1675264, block_count=1942
+[iter_files_to_requset:183]: filter_extents_cnt: 86397
+[CreatePGCustomScanState:222]: trace
+[walk_expr_for_fpga:423]: leaf node VV, func=date_gt, opexpr->opno=1097, opexpr->opfuncid=1089, arg0_tag=104[tuple], arg1_tag=104[tuple], (stack_count=1)
+[show_filter:73]: op_cnt=2, max_attr_index=12
+[show_filter:77]: op_type=113, op_class=0, funcid=1089, nargs=2
+	 arg0_tag=104, arg0_index=12, arg0_len=4
+	 arg1_tag=104, arg1_index=11, arg1_len=4
+[show_filter:77]: op_type=117, op_class=0, funcid=0, nargs=1
+	 arg0_tag=0, arg0_index=0, arg0_len=0
+	 arg1_tag=0, arg1_index=0, arg1_len=0
+[BeginPGCustomScan:278]: trace pg_css=0x7c4948f0a048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2809856, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=3788800, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=3792896, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=6914048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=6924288, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=4059136, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=3815424, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=6912000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=6864896, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=2752512, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=2719744, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2734080, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2738176, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2686976, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2656256, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2680832, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2588672, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=3885056, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=3889152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=2895872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2899968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=6928384, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=2615296, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=6897664, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=2555904, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=2562048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2566144, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=2523136, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=2549760, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 29: start_block=2553856, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 30: start_block=2490368, block_count=10240
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.1
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2500608, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=2457600, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=2482176, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=2486272, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=2424832, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=2392064, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=2410496, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=2414592, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=3811328, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=4057088, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4089856, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=3604480, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=3667968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=4014080, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2359296, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2369536, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2373632, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2326528, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=2357248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=2295808, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2260992, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=2228224, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=2232320, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=2236416, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.2
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=2242560, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=2195456, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=2205696, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=2211840, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=2162688, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=4073472, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=3131392, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=2480128, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=2484224, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=3710976, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=3715072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=6901760, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2170880, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2185216, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2189312, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=2129920, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=2064384, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2088960, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=2031616, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1998848, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=2009088, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=2013184, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=1966080, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=1982464, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4132864, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=4145152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2367488, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=2371584, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=3035136, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 29: start_block=3039232, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 30: start_block=4044800, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 31: start_block=1935360, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.3
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1939456, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1900544, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1908736, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1912832, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1867776, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1835008, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1849344, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1853440, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1802240, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1769472, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1777664, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=1781760, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=2791424, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=3407872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=3411968, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=4063232, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=4069376, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=4126720, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=3239936, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1738752, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1746944, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1751040, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=1703936, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=1673216, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=1677312, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.4
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1683456, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1638400, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1665024, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1669120, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1607680, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1540096, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1552384, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1556480, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1507328, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1515520, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=2230272, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2234368, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=4136960, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=4151296, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=1476608, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=1441792, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=1468416, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=1472512, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1409024, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1376256, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1394688, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1400832, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.5
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1402880, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1343488, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1359872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1363968, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1310720, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=1662976, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1667072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=4036608, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1744896, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1748992, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4007936, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=4098048, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=1333248, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=1277952, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=1245184, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=1263616, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=1267712, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=1212416, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1179648, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=1196032, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=1200128, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=1146880, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=6920192, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=3997696, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4061184, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=1329152, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 26: start_block=2166784, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 27: start_block=4128768, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 28: start_block=1122304, block_count=6144
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.6
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1132544, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=1081344, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=1105920, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=1112064, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=1015808, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=983040, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=1001472, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1005568, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=950272, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=917504, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=931840, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=935936, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=886784, block_count=8192
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=899072, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2355200, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=3110912, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=6916096, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=2084864, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=1511424, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=851968, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=821248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=825344, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=829440, block_count=16384
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.7
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=845824, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=786432, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=817152, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=755712, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=720896, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=749568, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=688128, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=708608, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=894976, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=2007040, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=4085760, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=3457024, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=4141056, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=655360, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=622592, block_count=10240
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=634880, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=638976, block_count=16384
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=589824, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=557056, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=565248, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=569344, block_count=18432
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.8
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=587776, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=491520, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=514048, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=518144, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=458752, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=485376, block_count=6144
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=4024320, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=1103872, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=1110016, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=1550336, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1554432, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2187264, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=706560, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=425984, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=393216, block_count=14336
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=409600, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=413696, block_count=12288
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=360448, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=327680, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=331776, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=335872, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 21: start_block=296960, block_count=26624
+[transfer_filepath_to_filter_extents:159]: extent 22: start_block=325632, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 23: start_block=264192, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 24: start_block=4022272, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 25: start_block=483328, block_count=2048
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.9
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=1118208, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=231424, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=196608, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=200704, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=165888, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=131072, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=135168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=139264, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=100352, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=65536, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=69632, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=2183168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 12: start_block=1128448, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 13: start_block=2560000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 14: start_block=2564096, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 15: start_block=4102144, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 16: start_block=34816, block_count=30720
+[transfer_filepath_to_filter_extents:159]: extent 17: start_block=8355840, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 18: start_block=8361984, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 19: start_block=8366080, block_count=22528
+[transfer_filepath_to_filter_extents:159]: extent 20: start_block=8323072, block_count=12288
+[transfer_filepath_to_filter_extents:124]: split_file_to_request filepath=/media/nvme/data/base/12407/16405.10
+[transfer_filepath_to_filter_extents:159]: extent 0: start_block=8335360, block_count=18432
+[transfer_filepath_to_filter_extents:159]: extent 1: start_block=8290304, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 2: start_block=8294400, block_count=28672
+[transfer_filepath_to_filter_extents:159]: extent 3: start_block=8257536, block_count=20480
+[transfer_filepath_to_filter_extents:159]: extent 4: start_block=8280064, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 5: start_block=8286208, block_count=4096
+[transfer_filepath_to_filter_extents:159]: extent 6: start_block=8224768, block_count=32768
+[transfer_filepath_to_filter_extents:159]: extent 7: start_block=8192000, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 8: start_block=8196096, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 9: start_block=8200192, block_count=24576
+[transfer_filepath_to_filter_extents:159]: extent 10: start_block=1671168, block_count=2048
+[transfer_filepath_to_filter_extents:159]: extent 11: start_block=1675264, block_count=1942
+[iter_files_to_requset:183]: filter_extents_cnt: 86397
+[AccessPGCustomScan:430]: 开始连接中间件
+[connect_to_server:25]: connecting to server /home/cjj/module/seqscan_server
+[connect_to_server:30]: connect failed
+[AccessPGCustomScan:434]: 连接中间件失败，无法继续
