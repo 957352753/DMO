@@ -1,0 +1,55 @@
+# Vivado and Vitis generated state
+.Xil/
+**/.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+**/xsim.dir/
+/ws2/
+
+# Local build products
+**/build*/
+**/.cache/
+**/.compile_commands/
+compile_commands.json
+app.yaml
+*.exe
+*.o
+*.obj
+*.dcp
+*.wdb
+*.pb
+*.jou
+*.log
+*.str
+*.xsa
+*.bit
+*.elf
+
+# The reviewed release payload is intentionally versioned.
+!release/current-best/sys_top_wrapper.bit
+!release/current-best/run-gr3ftl.elf
+
+# Private validation and machine-specific material
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+**/artifacts/
+**/evidence/
+**/logs/
+**/device_identity/
+**/remote_validation/
+**/tools/plink.exe
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
